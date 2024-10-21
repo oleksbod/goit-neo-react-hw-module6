@@ -3,7 +3,7 @@ import ContactList from './ContactList/ContactList';
 import SearchBox from './SearchBox/SearchBox';
 import Notification from './Notification/Notification';
 import { useSelector } from 'react-redux';
-import { selectContacts } from '../reduxe/contactsSlice';
+import { selectContacts } from '../redux/contactsSlice';
 
 function App() {
   const contacts = useSelector(selectContacts);
